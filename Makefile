@@ -1,4 +1,4 @@
-# Copied from E:\PROJECTS\_Electronics_PROJECTs\AC14B3K_battery\Makefile
+#*AC14B3K_battery\Makefile
 # 16:07 Friday, December 11, 2020
 
 ########   EDIT THIS ONLY  #############
@@ -49,11 +49,7 @@ all: post-build
 
 post-build: main-build
 	@echo POST
-#	@echo THE NEWER VERSION OF THIS MAKEFILE IS LOCATED AT 
-#	@echo /mnt/e/PROJECTS/_Electronics_PROJECTs/test-mega/Makefile
-#	@echo AS A TEAMPLATE, PLEASE COPY THE NEWER TO YOUR NEW AVR PROJECTS
-	@echo THIS TEAMPLATE Copied from E:\PROJECTS\_Electronics_PROJECTs\AC14B3K_battery\Makefile
-	@echo 16:07 Friday, December 11, 2020
+	@echo Fr AC14B3K_battery\Makefile 16:07 Friday, December 11, 2020
 main-build: pre-build
 	@$(MAKE) --no-print-directory target
 pre-build:
